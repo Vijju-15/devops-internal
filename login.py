@@ -1,7 +1,8 @@
 def Login(name, password):
-    if name == "Pavan" and password == "secret":
+    if name == "Vijju" and password == "vijju123":
         print("Login successful")
-        print("Welcome, Pavan!")
+        print("Welcome, vijju!")
+        print("You are now logged in")
         return True
     else:
         print("Login failed")
